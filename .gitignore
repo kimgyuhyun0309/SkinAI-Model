@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS Finder files
+.DS_Store
+
+# Colab temporary files
+*.ipynb
+*.zip
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Model weights
+models/*.pth
+models/*.pt
+models/*.bin
+
+# Image cache / intermediate outputs
+normalized/
+splits/
+manifest_raw.tsv
+manifest_normalized.tsv
+manifest_clean.tsv
+
+# Logs
+*.log
+
+# PyTorch Lightning / training logs
+lightning_logs/
+
+# VSCode settings (optional)
+.vscode/
